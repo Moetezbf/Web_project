@@ -1,0 +1,117 @@
+/* Add this CSS to a separate file named "styles.css" */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2, p {
+    margin: 0;
+}
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: #ddd;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    margin: 3px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-nav li {
+    margin-right: 15px;
+}
+
+.navbar-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-nav li a:hover {
+    background-color: #555;
+}
+/* Facture Details Styles */
+.facture-details {
+    margin-bottom: 20px;
+}
+.facture-details h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 1px solid#ccc;
+    padding-bottom: 10px;
+}
+.facture-details p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+.facture-details span {
+    font-weight: bold;
+    color: #333;
+}
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+.btn:hover {
+    background-color: #555;
+}
+/* Pay Button */
+.btn-pay {
+    background-color: #4caf50;
+}
+.btn-pay:hover {
+    background-color: #45a049;
+}
+/* Cancel Button */
+.btn-cancel {
+    background-color: #f44336;
+}
+.btn-cancel:hover {
+    background-color: #d32f2f;
+}
