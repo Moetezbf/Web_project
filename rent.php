@@ -120,7 +120,7 @@ function renderCar($car) {
                 <li><a href="index.html">Logout</a></li>
                 <li class="nav-item">
                     <a href=profile.php>
-                        <img src="<?php echo htmlspecialchars($_SESSION['image']); ?>" class="rounded-circle profile-image-nav" alt="Profile Image">
+                        <!-- <img src="<?php echo htmlspecialchars($_SESSION['image']); ?>" class="rounded-circle profile-image-nav" alt="Profile Image"> -->
                     </a>
                 </li>
             </ul>
