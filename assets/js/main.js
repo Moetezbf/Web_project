@@ -40,7 +40,9 @@
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
   }
-
+/**
+   * Navbar links active state on scroll
+   */
   /**
    * Navbar links active state on scroll
    */
@@ -77,6 +79,8 @@
 
   /**
    * Toggle .header-scrolled class to #header when page is scrolled
+   *//**
+   * Toggle .header-scrolled class to #header when page is scrolled
    */
   let selectHeader = select('#header')
   if (selectHeader) {
@@ -108,6 +112,9 @@
   }
 
   /**
+   * Mobile nav toggle
+   */
+/**
    * Mobile nav toggle
    */
   on('click', '.mobile-nav-toggle', function(e) {
